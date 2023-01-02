@@ -1,0 +1,9 @@
+{
+  "name": "aprendendo-nodejs",
+  "version": "1.0.0",
+  "description": "Primeiro projeto 2023 CodeDrops",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Juan Gabriel Rocha Santos",
+  "license": "MIT"
+}
