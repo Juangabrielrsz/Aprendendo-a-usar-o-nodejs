@@ -1,5 +1,5 @@
 POST  http://localhost:4002/product
-Content-Type: application/json
+Content-type: application/json
 
 {
     "name": "Caderno 96 folhas",
@@ -14,10 +14,10 @@ GET http://localhost:4002/products
 GET http://localhost:4002/products/c9bacb3c-4297-4808-9260-12e472869904
 
 ###
-PUT http://localhost:4002/products/0720a1db-398e-42f6-ac1d-f035f1db6994
-Content-Type: application/json
+PUT http://localhost:4002/products/41f8c736-ccb7-41f3-a073-dff8514f2e0c
+Content-type: application/json
 
 {
-    "name": "Cderno 96 folhas preto",
-    "price": 12.00
+    "name": "Cderno 96 folhas",
+    "price": 13.00
 }

@@ -47,7 +47,7 @@ app.get("/products/:id", (request, response) =>{
     return response.json(product);
 });
 
-app.put("/products/id", (request, response) =>{
+app.put("/products/:id", (request, response) =>{
     const { id } = request.params;
     const {name, price } = request.body;
 
@@ -58,7 +58,7 @@ app.put("/products/id", (request, response) =>{
         price,
     };
     
-    return response.json({message : "Produto alterado com sucesso"});
+    return response.json({ message : "Produto alterado com sucesso"});
 });
 
 
